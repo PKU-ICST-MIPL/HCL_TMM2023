@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1 python main.py --bs 30 --net 'resnet50' --data bird --epochs 100 --drop_rate 0.35 --gpu 0,1
